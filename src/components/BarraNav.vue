@@ -1,11 +1,16 @@
 <script setup>
+import Beneficios from './Beneficios.vue';
 import Inicio from './Inicio.vue';
 import Nosotros from './Nosotros.vue';
+import AcercaDe from './AcercaDe.vue';
+
 </script>
 <template>
     <div  class="container2" >
-        <Inicio />
+        <Inicio/>
         <Nosotros />
+        <Beneficios/>
+        <AcercaDe/>
     </div>
 </template>
 
@@ -26,5 +31,7 @@ export default {
     left: 0;
     height: 100px;
     background-color: aqua;
+    
 }
+
 </style>
