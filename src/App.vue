@@ -1,12 +1,9 @@
 <script setup>
-
-import Inicio from "@/components/Inicio.vue";
-import Nosotros from "@/components/Nosotros.vue";
+  import BarraNav from './components/BarraNav.vue';
 </script>
 
 <template>
-  <Inicio/>
-  <Nosotros/>
+  <BarraNav/>
 </template>
 
 <style scoped>
