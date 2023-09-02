@@ -3,6 +3,7 @@ import Beneficios from './Beneficios.vue';
 import Inicio from './Inicio.vue';
 import Nosotros from './Nosotros.vue';
 import AcercaDe from './AcercaDe.vue';
+import Contactanos from "@/components/Contactanos.vue";
 
 </script>
 <template>
@@ -11,13 +12,14 @@ import AcercaDe from './AcercaDe.vue';
         <Nosotros />
         <Beneficios/>
         <AcercaDe/>
+        <Contactanos/>
     </div>
 </template>
 
 <script>
 export default {
     name: "BarraNav",
-    components: { Inicio, Nosotros },
+    components: { Inicio, Nosotros, Beneficios, AcercaDe, Contactanos },
 }
 </script>
 
